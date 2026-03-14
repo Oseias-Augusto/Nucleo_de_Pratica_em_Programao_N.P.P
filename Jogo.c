@@ -24,10 +24,10 @@ int main (){
   // Sprites
 
   // Icone do Jogo
-  // ALLEGRO_BITMAP * icon = al_load_bitmap("icon.png");
-  // if (icon) {
-  //     al_set_display_icon(display, icon);
-  // }
+  ALLEGRO_BITMAP * icon = al_load_bitmap("./Sprites/icon.jpg");
+  if (icon) {
+      al_set_display_icon(display, icon);
+  }
 
   al_set_window_title(display, "Dino Game");
 
